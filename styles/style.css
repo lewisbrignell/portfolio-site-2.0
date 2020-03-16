@@ -259,6 +259,7 @@ section {
 
 h1,
 h2,
+h3,
 ul,
 p,
 button {
@@ -286,25 +287,45 @@ p {
 
 h1,
 h2,
+h3,
 a,
 p {
   line-height: 1.2;
+  letter-spacing: 0.5px;
 }
 
 h1 {
   border-bottom: 1px solid #060B13;
   padding-bottom: 5px;
-  font-size: 4.8rem;
+  font-size: 4.7rem;
+}
+
+h2,
+h3 {
+  color: #183249;
 }
 
 h2 {
+  padding-bottom: 20px;
   font-size: 3.8rem;
-  color: #183249;
+}
+
+h3 {
+  font-size: 2.8rem;
 }
 
 p,
 a {
   font-size: 2.0rem;
+}
+
+h3,
+p {
+  text-align: left;
+}
+
+p {
+  margin-bottom: 10px;
 }
 
 img {
@@ -326,7 +347,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 5;
+  z-index: 10;
   text-align: left;
   background: #060B13;
 }
@@ -344,6 +365,7 @@ header {
   left: 0;
   width: 100%;
   height: calc(100% - 44px);
+  z-index: 5;
   background: #060B13;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -390,10 +412,6 @@ header {
 .social-nav i {
   font-size: 4.0rem;
   color: #060B13;
-}
-
-.headshot-container {
-  padding-top: 20px;
 }
 
 .headshot-container img {

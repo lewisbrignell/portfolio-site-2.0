@@ -19,7 +19,7 @@ header {
 
     width: 100%;
 
-    z-index: 5;
+    z-index: 10;
 
     text-align: left;
     background: $text-main;
@@ -41,6 +41,8 @@ header {
     
     width: 100%;
     height: calc(100% - 44px);
+
+    z-index: 5;
 
     background: $text-main;
 

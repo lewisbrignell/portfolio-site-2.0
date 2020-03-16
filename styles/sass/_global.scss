@@ -33,6 +33,7 @@ section {
 
 h1,
 h2,
+h3,
 ul,
 p,
 button {
@@ -60,26 +61,47 @@ p {
 
 h1,
 h2,
+h3,
 a,
 p {
     line-height: 1.2;
+    letter-spacing: 0.5px;
 }
 
 h1 {
     border-bottom: 1px solid $text-main;
     padding-bottom: 5px;
 
-    font-size: 4.8rem;
+    font-size: 4.7rem;
+}
+
+h2,
+h3 {
+    color: $heading-main;
 }
 
 h2 {
+    padding-bottom: 20px;
+    
     font-size: 3.8rem;
-    color: $heading-main;
+}
+
+h3 {
+    font-size: 2.8rem;
 }
 
 p,
 a {
     font-size: 2.0rem;
+}
+
+h3,
+p {
+    text-align: left;
+}
+
+p {
+    margin-bottom: 10px;
 }
 
 img {
