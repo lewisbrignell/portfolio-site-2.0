@@ -291,8 +291,14 @@ p {
   line-height: 1.2;
 }
 
+h1 {
+  border-bottom: 1px solid #060B13;
+  padding-bottom: 5px;
+  font-size: 4.8rem;
+}
+
 h2 {
-  font-size: 3.0rem;
+  font-size: 3.8rem;
   color: #183249;
 }
 
@@ -301,21 +307,18 @@ a {
   font-size: 2.0rem;
 }
 
+img {
+  width: 100%;
+}
+
 header {
   position: relative;
   padding-top: 200px;
   min-height: 550px;
 }
 
-h1 {
-  border-bottom: 1px solid #060B13;
-  padding-bottom: 5px;
-  font-size: 4.8rem;
-}
-
 .sub-heading {
   padding-top: 5px;
-  font-size: 3.5rem;
 }
 
 .menu-button-container {
@@ -329,7 +332,7 @@ h1 {
 }
 
 .menu-button {
-  padding: 2px 10px;
+  padding: 10px;
   font-size: 3.5rem;
   color: #eef;
   background: #060B13;
@@ -372,5 +375,28 @@ h1 {
 }
 
 .social-nav {
-  margin-top: 10px;
+  margin-top: 50px;
+}
+
+.social-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.social-nav i {
+  font-size: 4.0rem;
+  color: #060B13;
+}
+
+.headshot-container {
+  padding-top: 20px;
+}
+
+.headshot-container img {
+  -webkit-clip-path: circle(38% at 50% 46%);
+          clip-path: circle(38% at 50% 46%);
 }

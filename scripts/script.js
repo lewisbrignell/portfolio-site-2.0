@@ -1,14 +1,17 @@
 const menuButton = document.querySelector('#menu-button');
 const menu = document.querySelector('#main-nav');
 
+const hideLoc = '-1000px';
+const showLoc = '44px';
+
 const hideMenu = () => {
-    menu.style.top = '-1000px';
+    menu.style.top = hideLoc;
     menuButton.value = 0;
 }
 
 menuButton.onclick = () => {
     toggleValue(menuButton.value);
-    menuButton.value == 1 ? menu.style.top = '44px' : menu.style.top = '-1000px';
+    menuButton.value == 1 ? menu.style.top = showLoc : menu.style.top = hideLoc;
 }
 
 const toggleValue = () => {
