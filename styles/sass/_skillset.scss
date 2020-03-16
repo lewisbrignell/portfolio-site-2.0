@@ -1,0 +1,31 @@
+
+.skills {
+
+    p {
+        text-align: center;
+    }
+
+}
+
+.skill-list {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+
+    padding-top: 20px;
+
+    i {
+        font-size: 5.0rem;
+    }
+
+    li {
+        padding-top: 10px;
+        
+        img.firebase {
+            max-width: 60px;
+            max-height: 60px;
+        }
+    }
+
+    
+}

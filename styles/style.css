@@ -418,3 +418,25 @@ header {
   -webkit-clip-path: circle(38% at 50% 46%);
           clip-path: circle(38% at 50% 46%);
 }
+
+.skills p {
+  text-align: center;
+}
+
+.skill-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  padding-top: 20px;
+}
+
+.skill-list i {
+  font-size: 5.0rem;
+}
+
+.skill-list p {
+  margin: 10px 0 30px;
+}
