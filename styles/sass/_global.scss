@@ -1,0 +1,76 @@
+
+// essentials
+
+// * {
+//     border: 1px solid red;
+// }
+
+.wrapper {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+// style stripping
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    background-color: $background-main;
+    font-family: 'Times New Roman', Times, serif;
+
+    scroll-behavior: smooth;
+}
+
+section {
+    padding-top: 50px;
+}
+
+h1,
+h2,
+ul,
+p,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+a,
+p {
+    color: $text-main;
+}
+
+h1,
+h2,
+a,
+p {
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 3.0rem;
+    color: $heading-main;
+}
+
+p,
+a {
+    font-size: 2.0rem;
+}
+

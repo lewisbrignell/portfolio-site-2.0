@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./assets/icons/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/ae58f79f12.js" crossorigin="anonymous"></script>
+    <title>Lewis Brignell | Web Developer</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <h1>Lewis Brignell</h1>
+            <h2 class="sub-heading">Front-End Web Developer</h2>
+
+            <div class="menu-button-container">
+                <button id="menu-button" class="menu-button" value=0><i aria-label="Show Menu" class="fas fa-bars"></i></button>
+            </div>
+            
+            <nav id="main-nav" class="main-nav">
+                <ul>
+                    <li><a onclick="hideMenu()" href="#about">About</a></li>
+                    <li><a onclick="hideMenu()" href="#skills">Skills</a></li>
+                    <li><a onclick="hideMenu()" href="#portfolio">Portfolio</a></li>
+                    <li><a onclick="hideMenu()" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+    
+            <nav class="social-nav">
+                <ul>
+                    <li><a href="#"><p class="sr-only">linkedin profile</p><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="#">github</a></li>
+                    <li><a href="#">twitter</a></li>
+                    <li><a href="#">medium</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            
+            <div class="headshot-container">
+                <img src="#" alt="Headshot of Lewis Brignell">
+            </div>
+
+            <p>Born and raised in Toronto, Canada. I graduated from the University of Toronto, St. George with an Hon. B.A. in Specialist Political Science, with a minor in Business German.</p>
+            <p>A passionate traveler, I spent a summer working in Québec's Eastern Townships. From 2017 to 2019, I lived and worked in Nagoya, Japan.</p>
+            <p>I'm a graduate of Juno College of Technology's - formerly HackerYou - Web Development Immersive Bootcamp.</p>
+            <p>When not coding, I enjoy playing the piano, board games and talking about global affairs.</p>
+
+        </section>
+        
+        <section id="skills">
+            <h2>Skill Set</h2>
+
+            <ul class="skill-list">
+                <li>
+
+                    <p>HTML5</p>
+                </li>
+                <li>
+
+                    <p>CSS3</p>
+                </li>
+                <li>
+
+                    <p>Javascript | ES6</p>
+                </li>
+                <li>
+
+                    <p>React</p>
+                </li>
+                <li>
+
+                    <p>jQuery</p>
+                </li>
+                <li>
+
+                    <p>SCSS</p>
+                </li>
+                <li>
+
+                    <p>Git</p>
+                </li>
+                <li>
+
+                    <p>Firebase</p>
+                </li>
+                <li>
+
+                    <p>Github</p>
+                </li>
+                <li>
+
+                    <p>Project Management</p>
+                </li>
+                <li>
+
+                    <p>French, German</p>
+                </li>
+                <li>
+
+                    <p>Client Services</p>
+                </li>
+            </ul>
+        </section>
+        
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+
+            <div class="piece piece-1">
+                <div class="text-container">
+                    <h2>Ipsumbucks</h2>
+    
+                    <p>A lorem ipsum placeholder text generator with a fun twist! Tired of meaningless latin? How about an unreasonably long Starbucks drink order instead!</p>
+    
+                    <a href="">Github Repo</a>
+                    <a href="">View on GitHub Pages</a>
+                </div>
+            </div>
+            <div class="piece piece-2">
+                <div class="text-container">
+                    <h2>Movie Playlist Generator</h2>
+    
+                    <p>Using the Movie Database API, create a playlist based on your preferred actor or actress, and movie genre.</p>
+    
+                    <a href="">Github Repo</a>
+                    <a href="">View on GitHub Pages</a>
+                </div>
+            </div>
+            <div class="piece piece-3">
+                <div class="text-container">
+                    <h2>Public Pixel Gallery</h2>
+    
+                    <p>Just as the name says! A public gallery in which users may view and create pixel art on a twelve-by-twelve grid.</p>
+    
+                    <a href="">Github Repo</a>
+                    <a href="">View on GitHub Pages</a>
+                </div>
+            </div>
+            <div class="piece piece-4">
+                <div class="text-container">
+                    <h2>Not So Social Planner</h2>
+    
+                    <p>Do you have plans? Does cancelling them sound more fun? Utilizing Firebase, a TV schedule API and the Giphy API, users may filter TV shows by genre, based on the day of their plans and find a barely plausible reason to cancel!</p>
+    
+                    <a href="">Github Repo</a>
+                    <a href="">View on GitHub Pages</a>
+                </div>
+            </div>
+
+        </section>
+        
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <a href="#">tel: (416) 735-0272</a>
+            <a href="#">email: lewisbrignell@gmail.com</a>
+            <a href="#">▼ Download Resume</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Lewis Brignell © 2020</p>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
