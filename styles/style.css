@@ -420,6 +420,7 @@ header {
 }
 
 .skills p {
+  margin-top: 5px;
   text-align: center;
 }
 
@@ -437,6 +438,13 @@ header {
   font-size: 5.0rem;
 }
 
-.skill-list p {
-  margin: 10px 0 30px;
+.skill-list li {
+  padding-top: 10px;
+}
+
+.firebase-container {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
 }
