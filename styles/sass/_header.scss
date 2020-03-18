@@ -6,7 +6,7 @@ header {
 
     position: relative;
 
-    background-image: url(../../assets/images/header-image.jpeg);
+    background: linear-gradient(transparent, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.4)), url(../assets/images/header-image.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;

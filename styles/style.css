@@ -248,13 +248,13 @@ html {
 
 body {
   text-align: center;
+  background-color: #eef;
   font-family: 'Times New Roman', Times, serif;
   scroll-behavior: smooth;
 }
 
 section {
   padding-top: 50px;
-  background-color: #eef;
 }
 
 h1,
@@ -337,7 +337,8 @@ header {
   padding-top: 200px;
   min-height: 550px;
   position: relative;
-  background-image: url(../../assets/images/header-image.jpeg);
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.4))), url(../assets/images/header-image.jpg);
+  background: linear-gradient(transparent, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.4)), url(../assets/images/header-image.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;

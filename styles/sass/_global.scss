@@ -20,6 +20,7 @@ html {
 
 body {
     text-align: center;
+    background-color: $background-main;
     font-family: 'Times New Roman', Times, serif;
 
     scroll-behavior: smooth;
@@ -27,7 +28,6 @@ body {
 
 section {
     padding-top: 50px;
-    background-color: $background-main;
 }
 
 h1,
