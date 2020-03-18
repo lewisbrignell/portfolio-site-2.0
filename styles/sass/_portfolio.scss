@@ -1,4 +1,31 @@
 
 .piece {
+    margin: 30px 10px;
     padding: 10px;
+
+}
+
+.piece-1, 
+.piece-2, 
+.piece-3, 
+.piece-4 {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.piece-1 {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5), transparent), url(../assets/images/projectThree.png);
+}
+
+.piece-2 {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.6), transparent), url(../assets/images/projectFour.png)
+}
+
+.piece-3 {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.3)), url(../assets/images/projectFive.png)
+}
+
+.piece-4 {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.6), transparent), url(../assets/images/projectSix.png)
 }
