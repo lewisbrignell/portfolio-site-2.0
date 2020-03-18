@@ -277,6 +277,7 @@ li {
 
 a {
   text-decoration: none;
+  padding: 15px;
 }
 
 h1,
@@ -391,7 +392,6 @@ header {
 
 .main-nav a {
   display: inline-block;
-  padding: 10px;
   font-size: 2.8rem;
   color: #eef;
 }
@@ -447,4 +447,8 @@ header {
   width: 50px;
   height: 50px;
   text-align: center;
+}
+
+.piece {
+  padding: 10px;
 }
