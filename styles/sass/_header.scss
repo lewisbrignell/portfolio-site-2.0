@@ -1,11 +1,16 @@
 // header styles
 
 header {
+    padding-top: 200px;
+    min-height: 550px;  
+
     position: relative;
 
-    padding-top: 200px;
-    min-height: 550px;
-
+    background-image: url(../../assets/images/header-image.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
 }
 
 .sub-heading {
