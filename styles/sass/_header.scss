@@ -6,12 +6,28 @@ header {
 
     position: relative;
 
-    background: linear-gradient(transparent, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.4)), url(../assets/images/header-image.jpg);
+    background: linear-gradient(rgba(10, 10, 10, 0.75)), url(../assets/images/header-image.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
+
+    h1,
+    h2,
+    i.fab {
+        color: #fff;
+    }
+
 }
+
+h1 {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+
+    font-size: 4.7rem;
+}
+
+
 
 .sub-heading {
     padding-top: 5px;

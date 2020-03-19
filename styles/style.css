@@ -280,7 +280,6 @@ a {
   padding: 15px;
 }
 
-h1,
 a,
 p {
   color: #060B13;
@@ -293,12 +292,6 @@ a,
 p {
   line-height: 1.2;
   letter-spacing: 0.5px;
-}
-
-h1 {
-  border-bottom: 1px solid #060B13;
-  padding-bottom: 5px;
-  font-size: 4.7rem;
 }
 
 h2,
@@ -337,12 +330,24 @@ header {
   padding-top: 200px;
   min-height: 550px;
   position: relative;
-  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.4))), url(../assets/images/header-image.jpg);
-  background: linear-gradient(transparent, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.4)), url(../assets/images/header-image.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(10, 10, 10, 0.75))), url(../assets/images/header-image.jpg);
+  background: linear-gradient(rgba(10, 10, 10, 0.75)), url(../assets/images/header-image.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
+}
+
+header h1,
+header h2,
+header i.fab {
+  color: #fff;
+}
+
+h1 {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+  font-size: 4.7rem;
 }
 
 .sub-heading {
