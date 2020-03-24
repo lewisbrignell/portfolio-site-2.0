@@ -113,15 +113,19 @@ h1 {
         &:active {
             background: none;
         }
+        
+        i {
+            &:hover,
+            &:focus {
+                text-shadow: 0px 0px 5px $background-main;
+                background: none;
+            }
 
-        i:hover,
-        i:focus {
-            text-shadow: 0px 0px 5px $background-main;
-            background: none;
+            &:active {
+                color: $heading-main;
+            }
         }
 
-        i:active {
-            color: $heading-main;
-        }
+        
     }
 }

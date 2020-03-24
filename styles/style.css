@@ -451,8 +451,7 @@ h1 {
   background: none;
 }
 
-.social-nav a i:hover,
-.social-nav a i:focus {
+.social-nav a i:hover, .social-nav a i:focus {
   text-shadow: 0px 0px 5px whitesmoke;
   background: none;
 }
@@ -501,7 +500,7 @@ h1 {
 }
 
 .skill-list i {
-  font-size: 5.0rem;
+  font-size: 6.0rem;
 }
 
 .skill-list li {
@@ -510,8 +509,8 @@ h1 {
 
 .firebase-container {
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 6.0rem;
+  height: 6.0rem;
   text-align: center;
 }
 
@@ -547,8 +546,8 @@ h1 {
 }
 
 .piece-1 .text-container {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), color-stop(rgba(255, 255, 255, 0.5)), to(transparent));
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5), transparent);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), color-stop(rgba(255, 255, 255, 0.5)), to(transparent));
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.5), transparent);
 }
 
 .piece-2 {
@@ -556,8 +555,8 @@ h1 {
 }
 
 .piece-2 .text-container {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), color-stop(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.2)));
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), color-stop(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.2)));
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
 }
 
 .piece-3 {
@@ -565,8 +564,8 @@ h1 {
 }
 
 .piece-3 .text-container {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), color-stop(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.3)));
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.3));
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), color-stop(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.3)));
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.3));
 }
 
 .piece-4 {
@@ -574,8 +573,8 @@ h1 {
 }
 
 .piece-4 .text-container {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), color-stop(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.8)));
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.8));
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), color-stop(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.8)));
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.8));
 }
 
 .contact {
