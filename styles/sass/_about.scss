@@ -14,3 +14,17 @@
         clip-path: circle(38% at 50% 46%);
     }
 }
+
+.resume {
+    background: $text-main;
+    color: $background-main;
+
+    &:hover,
+    &:focus {
+        background: $heading-main;
+    }
+
+    &:active {
+        background: $text-main;
+    }
+}

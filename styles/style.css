@@ -280,6 +280,15 @@ a {
   padding: 15px;
 }
 
+a:hover, a:focus {
+  background: #4b4b4b;
+  color: whitesmoke;
+}
+
+a:active {
+  background: #141414;
+}
+
 a,
 p {
   color: #141414;
@@ -433,6 +442,25 @@ h1 {
   color: #141414;
 }
 
+.social-nav a:hover, .social-nav a:focus {
+  background: none;
+  color: none;
+}
+
+.social-nav a:active {
+  background: none;
+}
+
+.social-nav a i:hover,
+.social-nav a i:focus {
+  text-shadow: 0px 0px 5px whitesmoke;
+  background: none;
+}
+
+.social-nav a i:active {
+  color: #4b4b4b;
+}
+
 .about a {
   display: inline-block;
   width: 100%;
@@ -442,6 +470,19 @@ h1 {
 .headshot-container img {
   -webkit-clip-path: circle(38% at 50% 46%);
           clip-path: circle(38% at 50% 46%);
+}
+
+.resume {
+  background: #141414;
+  color: whitesmoke;
+}
+
+.resume:hover, .resume:focus {
+  background: #4b4b4b;
+}
+
+.resume:active {
+  background: #141414;
 }
 
 .skills p {

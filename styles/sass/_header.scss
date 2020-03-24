@@ -102,4 +102,26 @@ h1 {
         font-size: 4.0rem;
         color: $text-main;
     }
+
+    a {
+        &:hover,
+        &:focus {
+            background: none;
+            color: none;
+        }
+
+        &:active {
+            background: none;
+        }
+
+        i:hover,
+        i:focus {
+            text-shadow: 0px 0px 5px $background-main;
+            background: none;
+        }
+
+        i:active {
+            color: $heading-main;
+        }
+    }
 }

@@ -51,6 +51,16 @@ li {
 a {
     text-decoration: none;
     padding: 15px;
+
+    &:hover,
+    &:focus {
+        background: $heading-main;
+        color: $background-main;
+    }
+
+    &:active {
+        background: $text-main;
+    }
 }
 
 a,
