@@ -537,7 +537,14 @@ h1 {
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.8));
 }
 
+.contact {
+  padding-bottom: 30px;
+}
+
 .contact a {
   display: inline-block;
   width: 100%;
+  line-height: 1.4;
+  font-size: 2.4rem;
+  font-weight: 300;
 }
