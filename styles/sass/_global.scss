@@ -21,7 +21,7 @@ html {
 body {
     text-align: center;
     background-color: $background-main;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
 
     scroll-behavior: smooth;
 }
@@ -85,6 +85,13 @@ h3 {
 p,
 a {
     font-size: 2.0rem;
+}
+
+h2,
+h3,
+p,
+a {
+    font-weight: 300;
 }
 
 h3,

@@ -248,8 +248,8 @@ html {
 
 body {
   text-align: center;
-  background-color: #eef;
-  font-family: 'Times New Roman', Times, serif;
+  background-color: whitesmoke;
+  font-family: 'Raleway', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -282,7 +282,7 @@ a {
 
 a,
 p {
-  color: #060B13;
+  color: #141414;
 }
 
 h1,
@@ -296,7 +296,7 @@ p {
 
 h2,
 h3 {
-  color: #183249;
+  color: #4b4b4b;
 }
 
 h2 {
@@ -313,6 +313,13 @@ a {
   font-size: 2.0rem;
 }
 
+h2,
+h3,
+p,
+a {
+  font-weight: 300;
+}
+
 h3,
 p {
   text-align: left;
@@ -327,7 +334,7 @@ img {
 }
 
 header {
-  padding-top: 200px;
+  padding-top: 150px;
   min-height: 550px;
   position: relative;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(10, 10, 10, 0.75))), url(../assets/images/header-image.jpg);
@@ -341,13 +348,14 @@ header {
 header h1,
 header h2,
 header i.fab {
-  color: #fff;
+  color: whitesmoke;
+  font-weight: 200;
 }
 
 h1 {
-  border-bottom: 1px solid #fff;
-  padding-bottom: 5px;
-  font-size: 4.7rem;
+  border-bottom: 1px solid whitesmoke;
+  padding-bottom: 10px;
+  font-size: 5.8rem;
 }
 
 .sub-heading {
@@ -361,14 +369,14 @@ h1 {
   width: 100%;
   z-index: 10;
   text-align: left;
-  background: #060B13;
+  background: #141414;
 }
 
 .menu-button {
   padding: 10px;
   font-size: 3.5rem;
-  color: #eef;
-  background: #060B13;
+  color: whitesmoke;
+  background: #141414;
 }
 
 .main-nav {
@@ -378,7 +386,7 @@ h1 {
   width: 100%;
   height: calc(100% - 44px);
   z-index: 5;
-  background: #060B13;
+  background: #141414;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -404,11 +412,11 @@ h1 {
 .main-nav a {
   display: inline-block;
   font-size: 2.8rem;
-  color: #eef;
+  color: whitesmoke;
 }
 
 .social-nav {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .social-nav ul {
@@ -422,7 +430,7 @@ h1 {
 
 .social-nav i {
   font-size: 4.0rem;
-  color: #060B13;
+  color: #141414;
 }
 
 .about a {

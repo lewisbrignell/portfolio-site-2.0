@@ -1,7 +1,7 @@
 // header styles
 
 header {
-    padding-top: 200px;
+    padding-top: 150px;
     min-height: 550px;  
 
     position: relative;
@@ -15,16 +15,16 @@ header {
     h1,
     h2,
     i.fab {
-        color: #fff;
+        color: $background-main;
+        font-weight: 200;
     }
 
 }
 
 h1 {
-    border-bottom: 1px solid #fff;
-    padding-bottom: 5px;
-
-    font-size: 4.7rem;
+    border-bottom: 1px solid $background-main;
+    padding-bottom: 10px;
+    font-size: 5.8rem;
 }
 
 
@@ -91,7 +91,7 @@ h1 {
 }
 
 .social-nav {
-    margin-top: 50px;
+    margin-top: 30px;
 
     ul {
         display: flex;
