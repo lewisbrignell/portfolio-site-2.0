@@ -4,11 +4,15 @@
     a {
         display: inline-block;
         width: 100%;
-        margin-bottom: 20px;
+        max-width: 500px;
+        margin-bottom: 40px;
     }
 }
 
 .headshot-container {
+
+    max-width: 400px;
+    margin: 0 auto;
 
     img {
         clip-path: circle(38% at 50% 46%);

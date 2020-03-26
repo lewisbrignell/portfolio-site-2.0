@@ -3,9 +3,9 @@ $heading-main: #4b4b4b;
 $text-main: rgb(20, 20, 20);
 
 @mixin forTablet {
-  @media (min-width: 700px) { @content; }
+  @media (min-width: 767px) { @content; }
 }
 
 @mixin forDesktop {
-  @media (min-width: 1000px) { @content; }
+  @media (min-width: 1200px) { @content; }
 }

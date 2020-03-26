@@ -14,14 +14,27 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
 
+    @include forTablet {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
     padding-top: 20px;
 
     i {
-        font-size: 6.0rem;
+        font-size: 60px;
+
+        @media (min-width: 500px) {
+            font-size: 80px;
+        }
     }
 
     li {
         padding-top: 10px;
+
+        @media (min-width: 500px) {
+            padding-top: 30px;
+        }
     }
 
 }
@@ -29,8 +42,13 @@
 .firebase-container {
     display: inline-block;
 
-    width: 6.0rem;
-    height: 6.0rem;
+    width: 60px;
+    height: 60px;
+
+    @media (min-width: 500px) {
+        width: 80px;
+        height: 80px;
+    }
     
     text-align: center;
 }
