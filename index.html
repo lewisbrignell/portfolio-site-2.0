@@ -8,14 +8,15 @@
     <script src="https://kit.fontawesome.com/ae58f79f12.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
 
     <title>Lewis Brignell | Web Developer</title>
 </head>
 <body>
     <header>
         <div class="wrapper">
-            <h1>Lewis Brignell</h1>
-            <h2 class="sub-heading">Front-End Web Developer</h2>
+            <h1 data-aos="fade-in" data-aos-duration="2000">Lewis Brignell</h1>
+            <h2 class="sub-heading" data-aos="fade-in" data-aos-duration="2000">Front-End Web Developer</h2>
 
             <div class="menu-button-container">
                 <button id="menu-button" class="menu-button" value=0><i aria-label="Show Menu" class="fas fa-bars"></i></button>
@@ -31,7 +32,7 @@
             </nav>
     
             <nav class="social-nav">
-                <ul>
+                <ul data-aos="fade-down" data-aos-duration="1500">
                     <li><a href="https://www.linkedin.com/in/lewis-brignell/"><p class="sr-only">linkedin profile</p><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
                     <li><a href="https://github.com/lewisbrignell"><p class="sr-only">github profile</p><i class="fab fa-github" aria-hidden="true"></i></a></li>
                     <li><a href="https://twitter.com/LewisBrignell"><p class="sr-only">twitter profile</p><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
@@ -65,53 +66,53 @@
                 <h2>Skill Set</h2>
     
                 <ul class="skill-list">
-                    <li>
+                    <li data-aos="flip-down" data-aos-duration="400">
                         <i class="devicon-html5-plain" aria-hidden="true"></i>
                         <p>HTML5</p>
                     </li>
-                    <li>
+                    <li data-aos="flip-down" data-aos-duration="400">
                         <i class="devicon-css3-plain" aria-hidden="true"></i>
                         <p>CSS3</p>
                     </li>
-                    <li>
+                    <li data-aos="flip-down" data-aos-duration="400">
                         <i class="devicon-javascript-plain" aria-hidden="true"></i>
                         <p>Javascript | ES6</p>
                     </li>
-                    <li>
+                    <li data-aos="flip-down" data-aos-duration="400">
                         <i class="devicon-react-original" aria-hidden="true"></i>
                         <p>React</p>
                     </li>
-                    <li>
+                    <li data-aos="flip-down" data-aos-duration="400">
                         <i class="devicon-jquery-plain" aria-hidden="true"></i>
                         <p>jQuery</p>
                     </li>
-                    <li>
+                    <li data-aos="flip-down" data-aos-duration="400">
                         <i class="devicon-sass-original" aria-hidden="true"></i>
                         <p>SCSS</p>
                     </li>
-                    <li>
+                    <li data-aos="flip-down"  data-aos-duration="400">
                         <i class="devicon-git-plain" aria-hidden="true"></i>
                         <p>Git</p>
                     </li>
-                    <li>
+                    <li data-aos="flip-down" data-aos-duration="400">
                         <div class="firebase-container">
                             <img src="./assets/icons/firebaseIcon.svg" alt="Firebase" aria-hidden="true" />
                         </div>
                         <p>Firebase</p>
                     </li>
-                    <li>
+                    <li data-aos="flip-down" data-aos-duration="400">
                         <i class="devicon-github-plain" aria-hidden="true"></i>
                         <p>Github</p>
                     </li>
-                    <li>
+                    <li data-aos="flip-down" data-aos-duration="400">
                         <i class="fas fa-tasks" aria-hidden="true"></i>
                         <p>Project Mgnt.</p>
                     </li>
-                    <li>
+                    <li data-aos="flip-down" data-aos-duration="400">
                         <i class="fas fa-language" aria-hidden="true"></i>
                         <p>French, German</p>
                     </li>
-                    <li>
+                    <li data-aos="flip-down"  data-aos-duration="400">
                         <i class="fas fa-users" aria-hidden="true"></i>
                         <p>Client Services</p>
                     </li>
@@ -122,7 +123,7 @@
         <section id="portfolio">
             <h2>Portfolio</h2>
 
-            <div class="piece piece-1">
+            <div class="piece piece-1" data-aos="fade-right" data-aos-duration="300">
                 <div class="text-container">
                     <h3>Ipsumbucks</h3>
 
@@ -139,7 +140,7 @@
                     <a href="https://github.com/lewisbrignell/lewisBrignellProjectThree"><i class="fab fa-github" aria-hidden="true"></i> Github Repo</a>
                 </div>
             </div>
-            <div class="piece piece-2">
+            <div class="piece piece-2" data-aos="fade-left" data-aos-duration="300">
                 <div class="text-container">
                     <h3>Movie Playlist Generator</h3>
 
@@ -157,7 +158,7 @@
                     <a href="https://github.com/lewisbrignell/moviePlaylistGenerator"><i class="fab fa-github" aria-hidden="true"></i> Github Repo</a>
                 </div>
             </div>
-            <div class="piece piece-3">
+            <div class="piece piece-3" data-aos="fade-right" data-aos-duration="300">
                 <div class="text-container">
                     <h3>Public Pixel Gallery</h3>
 
@@ -173,7 +174,7 @@
                     <a href="https://github.com/lewisbrignell/projectFivePublicPixelGallery"><i class="fab fa-github" aria-hidden="true"></i> Github Repo</a>
                 </div>
             </div>
-            <div class="piece piece-4">
+            <div class="piece piece-4"  data-aos="fade-left" data-aos-duration="300">
                 <div class="text-container">
                     <h3>Not So Social Planner</h3>
 
@@ -211,5 +212,9 @@
     </footer>
 
     <script src="./scripts/script.js"></script>
+    <script src="node_modules/aos/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
