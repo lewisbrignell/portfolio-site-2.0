@@ -439,6 +439,7 @@ h1 {
   z-index: 10;
   text-align: left;
   background: #141414;
+  opacity: 0.6;
 }
 
 .menu-button {
@@ -459,7 +460,7 @@ h1 {
   top: -1000px;
   left: 0;
   width: 100%;
-  height: calc(100% - 44px);
+  height: calc(100vh - 44px);
   z-index: 5;
   background: #141414;
   -webkit-transition: all 0.3s ease;
@@ -647,6 +648,12 @@ h1 {
   font-weight: 600;
 }
 
+@media (min-width: 767px) {
+  .piece {
+    padding: 30px;
+  }
+}
+
 .piece-1,
 .piece-2,
 .piece-3,
@@ -658,6 +665,12 @@ h1 {
 
 .text-container {
   padding: 4px;
+}
+
+@media (min-width: 767px) {
+  .text-container {
+    padding: 20px;
+  }
 }
 
 .text-container a {
@@ -690,8 +703,8 @@ h1 {
 }
 
 .piece-1 .text-container {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), color-stop(rgba(255, 255, 255, 0.5)), to(transparent));
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.5), transparent);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), color-stop(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.8)));
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.8));
 }
 
 .piece-2 {
@@ -699,8 +712,8 @@ h1 {
 }
 
 .piece-2 .text-container {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), color-stop(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.2)));
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), color-stop(rgba(255, 255, 255, 0.6)), to(rgba(255, 255, 255, 0.5)));
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.5));
 }
 
 .piece-3 {

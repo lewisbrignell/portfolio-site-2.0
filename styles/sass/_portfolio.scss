@@ -11,6 +11,10 @@
         font-size: 2.5rem;
         font-weight: 600;
     }
+
+    @include forTablet {
+        padding: 30px;
+    }
 }
 
 .piece-1, 
@@ -24,6 +28,10 @@
 
 .text-container {
     padding: 4px;
+
+    @include forTablet {
+        padding: 20px;
+    }
 
     a {
         display: inline-block;
@@ -57,7 +65,7 @@
     background: url(../assets/images/projectThree.png);
 
     .text-container {
-        background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.5), transparent);
+        background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.8));
     }
 }
 
@@ -65,7 +73,7 @@
     background: url(../assets/images/projectFour.png);
 
     .text-container {
-        background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
+        background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.5));
     }
 }
 
