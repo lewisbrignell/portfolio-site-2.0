@@ -2,7 +2,7 @@ const menuButton = document.querySelector('#menu-button');
 const menu = document.querySelector('#main-nav');
 
 const hideLoc = '-1000px';
-const showLoc = '44px';
+const showLoc = '0';
 
 const hideMenu = () => {
     menu.style.top = hideLoc;

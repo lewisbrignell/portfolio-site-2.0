@@ -460,7 +460,7 @@ h1 {
   top: -1000px;
   left: 0;
   width: 100%;
-  height: calc(100vh - 44px);
+  height: 100vh;
   z-index: 5;
   background: #141414;
   -webkit-transition: all 0.3s ease;
@@ -472,7 +472,6 @@ h1 {
 }
 
 .main-nav ul {
-  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -483,6 +482,8 @@ h1 {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  height: 100vh;
+  min-height: 568px;
 }
 
 .main-nav a {
