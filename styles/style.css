@@ -443,7 +443,7 @@ h1 {
 
 @media (min-width: 767px) {
   .menu-button {
-    font-size: 5.0rem;
+    font-size: 4.0rem;
   }
 }
 
@@ -729,6 +729,14 @@ h1 {
   line-height: 1.4;
   font-size: 2.4rem;
   font-weight: 600;
+  text-decoration: underline;
+}
+
+@media (min-width: 767px) {
+  .contact a {
+    width: calc(50% - 60px);
+    font-size: 2.6rem;
+  }
 }
 
 footer {

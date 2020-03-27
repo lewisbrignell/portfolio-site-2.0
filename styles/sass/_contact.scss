@@ -5,11 +5,19 @@
 
     a {
         display: inline-block;
+
         width: 100%;
 
         line-height: 1.4;
         font-size: 2.4rem;
         font-weight: 600;
+        text-decoration: underline;
+
+        @include forTablet {
+            width: calc(50% - 60px);
+
+            font-size: 2.6rem;
+        }
     }
 
 }
