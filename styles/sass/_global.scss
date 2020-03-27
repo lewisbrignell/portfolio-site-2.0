@@ -7,12 +7,18 @@
 
 .wrapper {
     width: 95%;
-    max-width: 1200px;
+    max-width: 1180px;
     margin: 0 auto;
 
     @include forTablet {
-        width: 90%; 
+        width: 90%;
     }
+
+    @include forDesktop {
+        width: 80%;
+    }
+
+
 }
 
 // style stripping

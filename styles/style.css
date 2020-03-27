@@ -237,13 +237,19 @@ html {
 
 .wrapper {
   width: 95%;
-  max-width: 1200px;
+  max-width: 1180px;
   margin: 0 auto;
 }
 
 @media (min-width: 767px) {
   .wrapper {
     width: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrapper {
+    width: 80%;
   }
 }
 
@@ -396,8 +402,8 @@ header i.fab {
 
 @media (min-width: 767px) {
   header {
-    padding-top: 320px;
-    min-height: 980px;
+    padding-top: 250px;
+    min-height: 800px;
   }
 }
 
@@ -496,12 +502,7 @@ h1 {
 @media (min-width: 400px) {
   .social-nav {
     margin-top: 90px;
-  }
-}
-
-@media (min-width: 767px) {
-  .social-nav {
-    margin-top: 180px;
+    padding-bottom: 50px;
   }
 }
 
@@ -551,7 +552,7 @@ h1 {
 }
 
 .headshot-container {
-  max-width: 400px;
+  max-width: 250px;
   margin: 0 auto;
 }
 
