@@ -294,8 +294,9 @@ li {
 }
 
 a {
-  text-decoration: none;
   padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 a:hover, a:focus {
@@ -727,6 +728,7 @@ h1 {
 .contact a {
   display: inline-block;
   width: 100%;
+  max-width: 500px;
   line-height: 1.4;
   font-size: 2.4rem;
   font-weight: 600;
@@ -743,6 +745,12 @@ h1 {
 footer {
   padding: 20px;
   background: #141414;
+}
+
+@media (min-width: 767px) {
+  footer {
+    margin-top: 50px;
+  }
 }
 
 footer p {

@@ -3,6 +3,10 @@ footer {
 
     background: $text-main;
 
+    @include forTablet {
+        margin-top: 50px;
+    }
+
     p {
         margin: 0;
 
