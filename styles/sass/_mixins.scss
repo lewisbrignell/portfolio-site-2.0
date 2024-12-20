@@ -1,11 +1,25 @@
+//OG theme
 $background-main: rgb(245, 245, 245);
-$heading-main: #4b4b4b;
+$heading-main: rgb(75, 75, 75);
 $text-main: rgb(20, 20, 20);
 
+// lava lamp theme
+// $lava-purple: rgb(104, 52, 168);
+// $lava-pink: rgb(196, 65, 176);
+// $lava-gold: rgb(235, 145, 20);
+
+// $background-main: $lava-pink;
+// $heading-main: rgb(75, 75, 75);
+// $text-main: rgb(20, 20, 20);
+
 @mixin forTablet {
-  @media (min-width: 767px) { @content; }
+  @media (min-width: 767px) {
+    @content;
+  }
 }
 
 @mixin forDesktop {
-  @media (min-width: 1200px) { @content; }
+  @media (min-width: 1200px) {
+    @content;
+  }
 }
