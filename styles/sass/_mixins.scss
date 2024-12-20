@@ -4,13 +4,37 @@ $heading-main: rgb(75, 75, 75);
 $text-main: rgb(20, 20, 20);
 
 // lava lamp theme
-// $lava-purple: rgb(104, 52, 168);
-// $lava-pink: rgb(196, 65, 176);
-// $lava-gold: rgb(235, 145, 20);
+$lava-pink: rgb(242, 85, 218);
+$lava-purple: rgb(104, 52, 168);
+$lava-gold: rgb(241, 149, 35);
 
 // $background-main: $lava-pink;
 // $heading-main: rgb(75, 75, 75);
 // $text-main: rgb(20, 20, 20);
+
+.pink {
+  color: $lava-pink;
+}
+
+.bg-pink {
+  background-color: $lava-pink;
+}
+
+.purple {
+  color: $lava-purple;
+}
+
+.bg-purple {
+  background-color: $lava-purple;
+}
+
+.gold {
+  color: $lava-gold;
+}
+
+.bg-gold {
+  background-color: $lava-gold;
+}
 
 @mixin forTablet {
   @media (min-width: 767px) {
