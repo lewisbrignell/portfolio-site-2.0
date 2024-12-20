@@ -236,27 +236,27 @@ html {
 }
 
 .pink {
-  color: rgb(242, 85, 218);
+  color: #f255da;
 }
 
 .bg-pink {
-  background-color: rgb(242, 85, 218);
+  background-color: #f255da;
 }
 
 .purple {
-  color: rgb(104, 52, 168);
+  color: #6834a8;
 }
 
 .bg-purple {
-  background-color: rgb(104, 52, 168);
+  background-color: #6834a8;
 }
 
 .gold {
-  color: rgb(241, 149, 35);
+  color: #f19523;
 }
 
 .bg-gold {
-  background-color: rgb(241, 149, 35);
+  background-color: #f19523;
 }
 
 .wrapper {
@@ -319,24 +319,28 @@ a {
   padding: 15px;
   border-radius: 5px;
   text-decoration: none;
-  background: rgb(241, 149, 35);
-  color: rgb(104, 52, 168);
-  border: 2px solid rgb(241, 149, 35);
-  -webkit-box-shadow: 4px 4px 0px rgb(242, 85, 218);
-          box-shadow: 4px 4px 0px rgb(242, 85, 218);
+  background: #f19523;
+  color: #6834a8;
+  border: 2px solid #f19523;
+  -webkit-box-shadow: 4px 4px 0px #f255da;
+          box-shadow: 4px 4px 0px #f255da;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 a:hover, a:focus {
-  -webkit-box-shadow: 8px 8px 0px rgb(242, 85, 218);
-          box-shadow: 8px 8px 0px rgb(242, 85, 218);
+  -webkit-box-shadow: 8px 8px 0px #f255da;
+          box-shadow: 8px 8px 0px #f255da;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 a:active {
-  background: rgb(104, 52, 168);
-  color: rgb(241, 149, 35);
+  background: #6834a8;
+  color: #f19523;
 }
 
 a,
 p {
-  color: rgb(20, 20, 20);
+  color: rgb(26, 0, 48);
 }
 
 h1,
@@ -401,20 +405,20 @@ img {
 }
 
 header {
-  padding-top: 150px;
+  padding-top: 80px;
   min-height: 550px;
   position: relative;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(10, 10, 10, 0.75))), url(../assets/images/header-image.jpg);
-  background: linear-gradient(rgba(10, 10, 10, 0.75)), url(../assets/images/header-image.jpg);
-  background-position: top;
+  aspect-ratio: 960/300;
+  width: 100%;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  background-attachment: scroll;
+  background-image: url("../assets/images/header-waves.svg");
 }
 header h1,
-header h2,
-header i.fab {
+header h2 {
   color: rgb(245, 245, 245);
+  text-shadow: 1px 1px 0px rgb(26, 0, 48);
 }
 @media (min-width: 400px) {
   header {
@@ -457,15 +461,15 @@ h1 {
   width: 100%;
   z-index: 10;
   text-align: left;
-  background: rgb(20, 20, 20);
+  background: rgb(26, 0, 48);
   opacity: 0.6;
 }
 
 .menu-button {
   padding: 10px;
   font-size: 3.5rem;
-  color: rgb(245, 245, 245);
-  background: rgb(20, 20, 20);
+  color: #f255da;
+  background: rgb(26, 0, 48);
 }
 @media (min-width: 767px) {
   .menu-button {
@@ -480,7 +484,7 @@ h1 {
   width: 100%;
   height: 100vh;
   z-index: 5;
-  background: rgb(20, 20, 20);
+  background: rgb(26, 0, 48);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -504,7 +508,7 @@ h1 {
 .main-nav a {
   display: inline-block;
   font-size: 2.8rem;
-  color: rgb(245, 245, 245);
+  color: #6834a8;
 }
 @media (min-width: 767px) {
   .main-nav a {
@@ -531,26 +535,24 @@ h1 {
 }
 .social-nav i {
   font-size: 4rem;
-  color: rgb(20, 20, 20);
+  color: #6834a8;
 }
 @media (min-width: 767px) {
   .social-nav i {
     font-size: 6rem;
   }
 }
+.social-nav a {
+  display: block;
+  -webkit-box-shadow: 4px 4px 0px #6834a8;
+          box-shadow: 4px 4px 0px #6834a8;
+}
 .social-nav a:hover, .social-nav a:focus {
-  background: none;
-  color: none;
+  -webkit-box-shadow: 8px 8px 0px #6834a8;
+          box-shadow: 8px 8px 0px #6834a8;
 }
-.social-nav a:active {
-  background: none;
-}
-.social-nav a i:hover, .social-nav a i:focus {
-  text-shadow: 0px 0px 5px rgb(245, 245, 245);
-  background: none;
-}
-.social-nav a i:active {
-  color: rgb(75, 75, 75);
+.social-nav i.fab {
+  color: lava-purple;
 }
 
 .about a {
@@ -609,19 +611,19 @@ h1 {
 }
 
 .resume {
-  background: rgb(241, 149, 35);
-  color: rgb(104, 52, 168);
-  border: 2px solid rgb(241, 149, 35);
-  -webkit-box-shadow: 4px 4px 0px rgb(242, 85, 218);
-          box-shadow: 4px 4px 0px rgb(242, 85, 218);
+  background: #f19523;
+  color: #6834a8;
+  border: 2px solid #f19523;
+  -webkit-box-shadow: 4px 4px 0px #f255da;
+          box-shadow: 4px 4px 0px #f255da;
 }
 .resume:hover, .resume:focus {
-  -webkit-box-shadow: 8px 8px 0px rgb(242, 85, 218);
-          box-shadow: 8px 8px 0px rgb(242, 85, 218);
+  -webkit-box-shadow: 8px 8px 0px #f255da;
+          box-shadow: 8px 8px 0px #f255da;
 }
 .resume:active {
-  background: rgb(104, 52, 168);
-  color: rgb(241, 149, 35);
+  background: #6834a8;
+  color: #f19523;
 }
 
 .skills p {
@@ -631,7 +633,7 @@ h1 {
 .skills h2,
 .skills p,
 .skills i {
-  color: rgb(104, 52, 168);
+  color: #6834a8;
 }
 
 .skill-list {
@@ -695,7 +697,7 @@ h1 {
 .text-container a {
   display: inline-block;
   width: 80%;
-  max-width: 550px;
+  max-width: 400px;
   margin-bottom: 10px;
 }
 
@@ -788,7 +790,7 @@ h1 {
 
 footer {
   padding: 20px;
-  background: rgb(20, 20, 20);
+  background: rgb(26, 0, 48);
 }
 footer p {
   margin: 0;
