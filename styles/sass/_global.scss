@@ -28,7 +28,8 @@ html {
 body {
   text-align: center;
   background-color: $background-main;
-  font-family: "Raleway", sans-serif;
+  // font-family: "Raleway", sans-serif;
+  font-family: "Domine", serif;
 
   scroll-behavior: smooth;
 }
@@ -66,14 +67,22 @@ a {
 
   text-decoration: none;
 
+  background: $lava-gold;
+  color: $lava-purple;
+  border: 2px solid $lava-gold;
+
+  box-shadow: 4px 4px 0px $lava-pink;
+
   &:hover,
   &:focus {
-    background: $heading-main;
-    color: $background-main;
+    // background: $lava-gold;
+    // color: $lava-purple;
+    box-shadow: 8px 8px 0px $lava-pink;
   }
 
   &:active {
-    background: $text-main;
+    background: $lava-purple;
+    color: $lava-gold;
   }
 }
 

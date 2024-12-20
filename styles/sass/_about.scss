@@ -1,15 +1,38 @@
 .about {
   a {
     display: inline-block;
-    width: 100%;
-    max-width: 500px;
+    width: 90%;
+    max-width: 400px;
+    margin-top: 30px;
     margin-bottom: 40px;
+  }
+}
+
+.about-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @include forDesktop {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.about-card p {
+  @include forDesktop {
+    width: 75%;
   }
 }
 
 .headshot-container {
   max-width: 250px;
   margin: 0 auto;
+
+  @include forDesktop {
+    width: 25%;
+  }
 
   img {
     clip-path: circle(38% at 50% 46%);
@@ -25,12 +48,13 @@
 
   &:hover,
   &:focus {
-    background: $lava-purple;
-    color: $lava-gold;
+    // background: $lava-gold;
+    // color: $lava-purple;
     box-shadow: 8px 8px 0px $lava-pink;
   }
 
   &:active {
-    background: $text-main;
+    background: $lava-purple;
+    color: $lava-gold;
   }
 }

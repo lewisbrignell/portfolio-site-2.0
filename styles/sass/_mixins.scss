@@ -43,7 +43,7 @@ $lava-gold: rgb(241, 149, 35);
 }
 
 @mixin forDesktop {
-  @media (min-width: 1200px) {
+  @media (min-width: 1180px) {
     @content;
   }
 }

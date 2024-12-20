@@ -1,18 +1,13 @@
 footer {
-    padding: 20px;
+  padding: 20px;
 
-    background: $text-main;
+  background: $text-main;
 
-    @include forTablet {
-        margin-top: 50px;
-    }
+  p {
+    margin: 0;
 
-    p {
-        margin: 0;
-
-        font-size: 2.4rem;
-        text-align: center;
-        color: $background-main;
-    }
-    
+    font-size: 2.4rem;
+    text-align: center;
+    color: $background-main;
+  }
 }

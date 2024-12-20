@@ -1,24 +1,20 @@
-
 .contact {
+  padding-bottom: 30px;
 
-    padding-bottom: 30px;
+  a {
+    display: inline-block;
 
-    a {
-        display: inline-block;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 15px 15px 15px;
 
-        width: 100%;
-        max-width: 500px;
+    line-height: 1.4;
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-decoration: underline;
 
-        line-height: 1.4;
-        font-size: 2.4rem;
-        font-weight: 600;
-        text-decoration: underline;
-
-        @include forTablet {
-            width: calc(50% - 60px);
-
-            font-size: 2.6rem;
-        }
+    @include forTablet {
+      font-size: 2.6rem;
     }
-
+  }
 }
